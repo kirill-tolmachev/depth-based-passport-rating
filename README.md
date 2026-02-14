@@ -1,4 +1,4 @@
-# CountryRate
+# Depth Based Passport Rating
 
 A .NET 10 console application that rates country passports using **Passport Depth** — an iterative, self-referential alternative to traditional passport rankings.
 
@@ -33,7 +33,7 @@ Traditional passport indexes measure **Passport Reach** — simply counting how 
 
 UAE drops significantly because many of its visa-free destinations have weaker passports. South Korea rises to #1 because its visa-free destinations are predominantly strong-passport countries.
 
-### Combined Ranking (All Levels)
+### Combined Ranking (sorted by L100 score)
 
 | # | Country | L1 Score | L1 Rank | L2 Score | L2 Rank | L3 Score | L3 Rank | L10 Score | L10 Rank | L50 Score | L50 Rank | L100 Score | L100 Rank | Delta (L1→L100) |
 |--:|---------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|---------------:|
